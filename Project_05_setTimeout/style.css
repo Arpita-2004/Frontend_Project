@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: Larken DEMO Light;   */
+    font-family: Helvetica Now Display;
+}
+.card{
+    width: 500px;
+    height: 500px;
+    background-color:grey;
+    text-align: center;
+    padding: 60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.card h2{
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    color: red;
+}
+.card button{
+    margin-top: 30px;
+    padding: 12px 15px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color:royalblue;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+.card button:active{
+    scale: 0.95;
+}

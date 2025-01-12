@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+button{
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:rgb(7, 82, 39);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 80;
+}
+button:active{
+    scale: 0.95;
+}

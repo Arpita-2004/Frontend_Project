@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 700px;
+    width: 500px;
+    background: black;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    position: relative;
+}
+.insta{
+    padding: 10px 20px;
+    font-family: larken DEMO regular;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.storiyan{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    padding: 10px;
+    border-bottom: 2px solid rgb(39, 38, 38);
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.storiyan::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    height: 80px;
+    width: 80px;
+    padding: 4px;
+    background: linear-gradient(to left bottom,rgb(113, 21, 113),rgb(255, 0, 162),rgb(255, 17, 0),orange,yellow);
+    border-radius: 50%;
+    display:inline-block;
+    margin-right: 8px;
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.full{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    display: none;
+    position: absolute;
+}

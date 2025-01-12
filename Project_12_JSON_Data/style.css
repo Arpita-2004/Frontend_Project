@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-flexbox;
+    gap: 20px;
+    background-color: rgb(149, 148, 148);
+    flex-wrap: wrap;
+}
+.cover {
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+}
+.cover img{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+.profile img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: -10px;
+}
+.card{
+    padding: 30px;
+    width: 300px;
+    background-color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+.card h2{
+    /* font-size: 17px; */
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card h5{
+    font-size: 18px;
+    color: rgb(54, 54, 54);
+}
+p{
+    margin-top: 10px;
+    color: rgb(54, 54, 54);
+}
+.fan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px; 
+}
+.media{
+    margin-top: 10px;
+}
+.followers{
+    margin-top: 10px;
+}
+.following{
+    margin-top: 10px;
+}

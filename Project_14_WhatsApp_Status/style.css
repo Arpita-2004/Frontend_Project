@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+.card{
+    height: 600px;
+    width: 400px;
+    background-color: #000;
+    border-radius: 10px;
+    color: white;
+}
+h1{
+    padding: 10px 20px;
+}
+h2{
+    padding: 20px;
+    border-bottom: 2px solid rgb(61, 61, 61);
+}
+.allstatus{
+    height: 87%;
+    width: 100%;
+    overflow: auto;
+}
+.allstatus::-webkit-scrollbar{
+    display: none;
+}
+.status{
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(61, 61, 61);
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+.status img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid green;
+    object-fit: cover;
+}
+.name h3{
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+.name h5{
+    font-weight: 100;
+}
